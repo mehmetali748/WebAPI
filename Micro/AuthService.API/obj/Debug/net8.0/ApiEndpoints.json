@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "AuthService.API.Controllers.AccountController",
+    "Method": "GetProfile",
+    "RelativePath": "Account/Profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthService.API.Controllers.AccountController",
+    "Method": "Register",
+    "RelativePath": "Account/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "AuthService.Application.Commands.RegisterUser.RegisterUserCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
